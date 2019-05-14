@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="SessionBeanAccesoriosxproducto">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanAccesoriosxproducto</implementation-class>
+    </service>
+    <service name="SessionBeanPedidos">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanPedidos</implementation-class>
+    </service>
+    <service name="SessionBeanPedidosProductos">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanPedidosProductos</implementation-class>
+    </service>
+    <service name="SessionBeanVentasProductos">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanVentasProductos</implementation-class>
+    </service>
+    <service name="SessionBeanProveedoresProductos">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanProveedoresProductos</implementation-class>
+    </service>
+    <service name="SessionBeanPagos">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanPagos</implementation-class>
+    </service>
+    <service name="SessionBeanTiposMedidas">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanTiposMedidas</implementation-class>
+    </service>
+    <service name="SessionBeanHorarioEmpleados">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanHorarioEmpleados</implementation-class>
+    </service>
+    <service name="SessionBeanSeguimientoPagos">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanSeguimientoPagos</implementation-class>
+    </service>
+    <service name="SessionBeanUsers">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanUsers</implementation-class>
+    </service>
+    <service name="SessionBeanInventarios">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanInventarios</implementation-class>
+    </service>
+    <service name="SessionBeanVentas">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanVentas</implementation-class>
+    </service>
+    <service name="SessionBeanUsuarios">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanUsuarios</implementation-class>
+    </service>
+    <service name="SessionBeanProductos">
+      <implementation-class>com.javarevolutions.siycp.ejb.session.SessionBeanProductos</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>

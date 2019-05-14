@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://192.168.0.19:3306/siycp_jr?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">Denver$8</property>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/HorarioEmpleados.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/Users.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/Accesoriosxproducto.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/VentasProductos.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/PedidosProductos.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/Pagos.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/Productos.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/Inventarios.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/Usuarios.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/SeguimientoPagos.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/Ventas.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/Pedidos.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/TiposMedidas.hbm.xml"/>
+    <mapping resource="com/javarevolutions/siycp/ejb/entity/ProveedoresProductos.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

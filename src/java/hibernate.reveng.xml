@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="siycp_jr"/>
+  <table-filter match-name="accesoriosxproducto"/>
+  <table-filter match-name="pagos"/>
+  <table-filter match-name="seguimiento_pagos"/>
+  <table-filter match-name="pedidos"/>
+  <table-filter match-name="tipos_medidas"/>
+  <table-filter match-name="productos"/>
+  <table-filter match-name="inventarios"/>
+  <table-filter match-name="usuarios"/>
+  <table-filter match-name="ventas_productos"/>
+  <table-filter match-name="horario_empleados"/>
+  <table-filter match-name="proveedores_productos"/>
+  <table-filter match-name="pedidos_productos"/>
+  <table-filter match-name="users"/>
+  <table-filter match-name="ventas"/>
+</hibernate-reverse-engineering>
